@@ -3,9 +3,10 @@ import Header from "./components/Header";
 function App() {
   return (
     <div className="absolute top-0 left-0 w-full h-full bg-white dark:bg-dark">
-      <div className="pt-5 px-14">
+      <div className="pt-5 px-14 dark:bg-pattern dark:rounded-bl-3xl dark:rounded-br-3xl">
         <Header />
-        <div className="attribution mt-5"> 
+      </div>
+      <div className="attribution mt-5"> 
           <span className="text-light-darkBlue dark:text-white">Challenge by</span>{" "}
           <a
             href="https://www.frontendmentor.io?ref=challenge"
@@ -24,7 +25,6 @@ function App() {
           </a>
           .
         </div>
-      </div>
     </div>
   );
 }

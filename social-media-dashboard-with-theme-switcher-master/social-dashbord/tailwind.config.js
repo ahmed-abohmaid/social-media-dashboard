@@ -52,7 +52,8 @@ module.exports = {
         dark: "hsl(230, 17%, 14%)",
         mainColor: "#FBF8F9",
         secondaryColor: "#F0F0F0",
-        blackOverlay: "rgba(0, 0 ,0 ,0.7)",
+        line: "rgba(0, 0 ,0 ,0.7)",
+        pattern: "hsl(232, 19%, 15%)",
       },
       keyframes: {
         "slide-in": {
