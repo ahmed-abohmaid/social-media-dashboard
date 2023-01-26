@@ -3,6 +3,19 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {
+      letterSpacing: {
+        big: "0.36em",
+      },
+      colors: {
+        facebook: "hsl(208, 92%, 53%)",
+        twitter: "hsl(208, 92%, 53%)",
+        youtube: "hsl(348, 97%, 39%)",
+        instaR: "hsl(37, 97%, 70%)",
+        instaL: "hsl(329, 70%, 58%)",
+      },
+      spacing: {
+        border: "-4px"
+      },
       margin: {
         320: "320px",
       },
@@ -46,14 +59,25 @@ module.exports = {
         },
         dark: {
           blue: "hsl(228, 34%, 66%)",
-        }
+        },
+        green: "hsl(163, 72%, 41%)",
+        red: "hsl(356, 69%, 56%)",
       },
       backgroundColor: {
         dark: "hsl(230, 17%, 14%)",
         mainColor: "#FBF8F9",
         secondaryColor: "#F0F0F0",
         line: "rgba(0, 0 ,0 ,0.7)",
-        pattern: "hsl(232, 19%, 15%)",
+        lightTheme: {
+          pattern: "hsl(225, 100%, 98%)",
+          card: "hsl(227, 47%, 96%)",
+          cardHover: "hsl(230, 22%, 74%)",
+        },
+        darkTheme: {
+          pattern: "hsl(232, 19%, 15%)",
+          card: "hsl(228, 28%, 20%)",
+          cardHover: "hsl(228, 34%, 66%)",
+        },
       },
       keyframes: {
         "slide-in": {

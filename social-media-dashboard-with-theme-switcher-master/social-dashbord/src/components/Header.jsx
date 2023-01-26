@@ -18,7 +18,7 @@ function Header() {
   };
 
   return (
-    <div className="flex flex-wrap justify-between items-center p-5 gap-5">
+    <div className="flex flex-wrap justify-between items-center gap-5">
       <div>
         <div className="font-bold text-lg sm:text-xl text-light-darkBlue dark:text-white">
           Social Media Dashboard
@@ -32,9 +32,9 @@ function Header() {
         <div className="text-light-blue dark:text-light-grayBlue font-bold text-xs mr-1 sm:mr-3 sm:w-auto">
           Dark Mode
         </div>
-        <label class="switch">
+        <label className="switch">
           <input type="checkbox" onClick={handleSetTheme} />
-          <span class="slider dark:before:bg-gray-800"></span>
+          <span className="slider dark:before:bg-gray-800"></span>
         </label>
       </div>
     </div>
