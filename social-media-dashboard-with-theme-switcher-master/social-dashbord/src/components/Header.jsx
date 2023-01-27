@@ -24,7 +24,7 @@ function Header() {
           Total Followers: 23,004
         </p>
       </div>
-      <span className="bg-line w-full h-px sm:hidden"></span>
+      <span className="bg-line dark:bg-gray-700 w-full h-px sm:hidden"></span>
       <div className="flex-end flex items-center justify-between w-full sm:justify-end sm:w-auto">
         <div className="text-light-blue dark:text-light-grayBlue font-bold text-xs mr-1 sm:mr-3 sm:w-auto">
           Dark Mode

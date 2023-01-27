@@ -67,18 +67,14 @@ module.exports = {
       },
       backgroundColor: {
         dark: "hsl(230, 17%, 14%)",
-        mainColor: "#FBF8F9",
-        secondaryColor: "#F0F0F0",
         line: "rgba(0, 0 ,0 ,0.7)",
         lightTheme: {
           pattern: "hsl(225, 100%, 98%)",
           card: "hsl(227, 47%, 96%)",
-          cardHover: "hsl(230, 22%, 74%)",
         },
         darkTheme: {
           pattern: "hsl(232, 19%, 15%)",
           card: "hsl(228, 28%, 20%)",
-          cardHover: "hsl(228, 34%, 66%)",
         },
       },
       keyframes: {

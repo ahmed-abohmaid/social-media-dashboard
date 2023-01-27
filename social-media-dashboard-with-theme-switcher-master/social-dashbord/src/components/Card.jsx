@@ -6,7 +6,7 @@ const Card = ({
   return (
     <div className="mt-6">
       <div
-        className={`flex flex-col justify-center items-center relative pt-6 pb-5 bg-lightTheme-card dark:bg-darkTheme-card rounded-md z-10 before:top-0 before:left-0 before:w-full before:h-1 before:absolute before:rounded-tl-xl before:rounded-tr-xl before:z-0
+        className={`flex flex-col justify-center items-center hover:bg-slate-300 dark:hover:bg-gradient-to-tl dark:hover:from-slate-700 dark:hover:to-slate-800 cursor-pointer transition-all duration-75  relative pt-6 pb-5 bg-lightTheme-card dark:bg-darkTheme-card rounded-md z-10 before:top-0 before:left-0 before:w-full before:h-1 before:absolute before:rounded-tl-xl before:rounded-tr-xl before:z-0
         ${
           type === "facebook"
             ? "before:bg-facebook"
