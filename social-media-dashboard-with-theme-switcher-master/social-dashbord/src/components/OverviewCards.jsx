@@ -9,7 +9,7 @@ import Youtube from "../assets/icon-youtube.svg";
 
 const OverviewCards = () => {
   return (
-    <div className="mt-8">
+    <div className="mt-8" role="main">
       <div className="font-bold text-light-blue dark:text-white text-xl tracking-wide">
         Overview - Today
       </div>

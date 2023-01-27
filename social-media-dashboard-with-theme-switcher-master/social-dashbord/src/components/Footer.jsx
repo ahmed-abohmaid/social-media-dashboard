@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div>
+    <div role="contentinfo">
       {" "}
       <div className="attribution mt-5">
         <span className="text-light-darkBlue dark:text-white">

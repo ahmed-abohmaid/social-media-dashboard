@@ -15,7 +15,7 @@ function Header() {
   };
 
   return (
-    <div className="flex flex-wrap justify-between items-center gap-5">
+    <div className="flex flex-wrap justify-between items-center gap-5" role="banner">
       <div>
         <div className="font-bold text-lg sm:text-xl text-light-darkBlue dark:text-white">
           Social Media Dashboard
