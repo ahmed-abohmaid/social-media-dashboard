@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import "./Header.css";
 
 function Header() {
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
 
   useEffect(() => {
     if (theme === "dark") {
@@ -12,6 +12,20 @@ function Header() {
       document.documentElement.classList.remove("dark");
     }
   }, [theme]);
+
+  localStorage.setItem("theme", theme);
+
+  useEffect(() => {
+    const storedTheme = localStorage.getItem("theme");
+    if (storedTheme) {
+      setTheme(storedTheme);
+      if (storedTheme === "dark") {
+        document.documentElement.classList.add("dark");
+      } else {
+        document.documentElement.classList.remove("dark");
+      }
+    }
+  }, []);
 
   const handleSetTheme = () => {
     setTheme(theme === "dark" ? "light" : "dark");
@@ -34,7 +48,7 @@ function Header() {
         </div>
         <label className="switch">
           <input type="checkbox" onClick={handleSetTheme} />
-          <span className="slider dark:before:bg-gray-800"></span>
+          <span className="slider dark:before:bg-gray-800 dark:bg-gradient-to-tr dark:from-inputR dark:to-inputL dark:before:translate-x-input"></span>
         </label>
       </div>
     </div>

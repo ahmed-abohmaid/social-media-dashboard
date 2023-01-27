@@ -12,9 +12,11 @@ module.exports = {
         youtube: "hsl(348, 97%, 39%)",
         instaR: "hsl(37, 97%, 70%)",
         instaL: "hsl(329, 70%, 58%)",
+        inputR: "hsl(210, 78%, 56%)",
+        inputL: "hsl(146, 68%, 55%)",
       },
       spacing: {
-        border: "-4px"
+        input: "-2em"
       },
       margin: {
         320: "320px",

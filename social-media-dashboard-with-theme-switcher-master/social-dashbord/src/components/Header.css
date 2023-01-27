@@ -38,15 +38,3 @@
   background-color: white;
   transition: 0.4s;
 }
-
-input:checked + .slider {
-  background-image: linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
-}
-
-input:focus + .slider {
-  box-shadow: 0 0 1px linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
-}
-
-input:checked + .slider:before {
-  transform: translateX(-2em);
-}

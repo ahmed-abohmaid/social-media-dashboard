@@ -6,7 +6,7 @@ const Card = ({
   return (
     <div className="mt-6">
       <div
-        className={`flex flex-col justify-center items-center relative pt-6 pb-5 bg-lightTheme-card dark:bg-darkTheme-card rounded-md border-t-4 z-10 before:top-border before:left-0 before:w-full before:h-1.5 before:absolute before:rounded-tl-md before:rounded-tr-md before:z-0
+        className={`flex flex-col justify-center items-center relative pt-6 pb-5 bg-lightTheme-card dark:bg-darkTheme-card rounded-md z-10 before:top-0 before:left-0 before:w-full before:h-1 before:absolute before:rounded-tl-xl before:rounded-tr-xl before:z-0
         ${
           type === "facebook"
             ? "before:bg-facebook"
@@ -35,7 +35,7 @@ const Card = ({
             alt={type !== "youtube" ? "up" : "down"}
           />
           <span
-            className={`ml-1 text-xs ${
+            className={`ml-1 text-xs font-bold ${
               type !== "youtube" ? "text-green" : "text-red"
             }`}
           >
